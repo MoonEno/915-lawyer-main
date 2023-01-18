@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-white;
+    }
+}
+
+
+@layer components {
+    .section-a {
+        @apply background-image : url('/section-a.webp');
+    }
+    .section-b {
+        @apply background-image : url('/section-b.webp');
+    }
+    .section-c {
+        @apply background-image : url('/section-c.webp');
+    }
+    .section-d {
+        @apply background-image : url('/section-d.webp');
+    }
+    .section-e {
+        @apply background-image : url('/section-e.webp');
+    }
+}
