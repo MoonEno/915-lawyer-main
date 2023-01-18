@@ -3,10 +3,11 @@ import type { NextPage } from 'next'
 import MetaInfo from '../components/MetaInfo'
 import Main from '../components/Main'
 import Footer from '../components/Footer'
+import { Fragment } from 'react'
 
 const Home: NextPage = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center py-2">
+    <Fragment>
       <MetaInfo />
       <main>
         <Main />
@@ -15,7 +16,7 @@ const Home: NextPage = () => {
       <footer >
         <Footer />
       </footer>
-    </div>
+    </Fragment>
   )
 }
 
