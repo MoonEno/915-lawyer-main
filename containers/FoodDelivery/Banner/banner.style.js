@@ -176,7 +176,7 @@ const BannerWrapper = styled.section`
       opacity: 1;
       color: rgba(0, 51, 78, 0.4);
     }
-    button[type='submit'] {
+    button[type='button'] {
       border: none;
       outline: none;
       display: flex;

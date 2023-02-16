@@ -343,9 +343,9 @@ import bannerBtn2 from 'public/images/foodDelivery/banner-google-play.svg';
 
 export const BANNER_DATA = {
   sectionImage: bannerImage,
-  title: 'Your favorite food, delivered your home',
-  text: 'Food, drinks, groceries, and more available for delivery and pickup.',
-  tagLine: 'Apps Available to download on',
+  title: '세무법인 세이브택스가 \n 숨은 세금을 찾아드립니다',
+  text: '전국 사업자 중 44%가 평균 7,475,655원을 환급받을 수 있습니다.',
+  tagLine: '사라지기 전에 지금! 무료로 환급액을 조회 해보세요.',
   buttons: [
     {
       icon: bannerBtn1,
